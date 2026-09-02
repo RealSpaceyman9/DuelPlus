@@ -91,5 +91,3 @@ Build-stage identifiers are used to indicate the development stage of a version.
 Previous versions may remain available as separate playable builds and historical snapshots. Newer versions do not replace or erase previous versions.
 
 ---
-
-## About
