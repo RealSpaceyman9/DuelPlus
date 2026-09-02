@@ -2,12 +2,22 @@
 
 ### Minimum Requirements
 
-* **Operating System:** Windows 10 64-bit
-* **Processor:** 1 GHz x64 processor
+* **Operating System:** Windows 10 or later
+* **Processor:** 1 GHz processor
 * **Memory:** 2 GB RAM
 * **Graphics:** Integrated graphics
-* **Storage:** 1 MB
-* **Architecture:** x64
+* **Storage:** 1 MB available space
+
+### Supported Architectures
+
+Duel+ is available in the following Windows builds:
+
+* **x64 (64-bit)** — Recommended for 64-bit versions of Windows.
+* **x86 (32-bit)** — For compatibility with 32-bit versions of Windows.
+
+A 64-bit version of Windows can generally run both x64 and x86 applications. A 32-bit version of Windows can only run x86 applications.
+
+---
 
 # Installing Duel+
 
@@ -15,60 +25,71 @@ To play a specific version of Duel+, follow the steps below.
 
 ## Step 1: Download the Version You Want
 
-1. Go to the repository main page.
-2. Select the version of Duel+ you want to download.
-3. Download the `.zip` file for that version.
+1. Go to the Duel+ repository.
+2. Select the version or release of Duel+ you want to download.
+3. Download the available `.zip` file or release package.
 
 ## Step 2: Extract the Game
 
 1. Open the downloaded `.zip` file.
 2. Extract the contents to a location of your choice.
-3. Open the extracted folder.
+3. Open the extracted Duel+ folder.
 
 ## Step 3: Launch Duel+
 
-1. Open the `x64` release folder.
-2. Run `Duel+.exe`.
-3. If Windows displays **"Windows protected your PC"**, select **More info**, then select **Run anyway**.
-4. Enjoy Duel+!
+1. Open the `Windows` folder.
+2. Choose the build that matches your system:
 
-## Versioning
+   * Open `x64` for 64-bit Windows.
+   * Open `x86` for 32-bit Windows.
+3. Run `Duel+.exe`.
+4. If Windows displays **"Windows protected your PC"**, select **More info**, then select **Run anyway** if you trust the downloaded build.
+5. Enjoy Duel+!
 
-Duel+ uses a structured versioning system to identify the development stage and release version of the game.
+---
 
-### Release Stages
+# Versioning
 
-* **AV — Alpha Version**
+Duel+ uses a structured versioning system to identify development builds and release versions.
 
-  * Early and unstable development builds.
-  * Features may be incomplete, experimental, or subject to major changes.
+## Build Stages
 
-* **BV — Beta Version**
+Versions prior to `v1.0.0` are development versions and use a build-stage identifier.
 
-  * Development and testing builds.
-  * Features and gameplay systems are actively being added, tested, balanced, and refined.
+### AB — Alpha Build
 
-* **SE — Stable Edition**
+`AB` identifies an Alpha Build.
 
-  * Stable public releases.
-  * Intended for completed and polished versions of Duel+.
+Alpha Builds represent early stages of development. Features, systems, and gameplay may be incomplete, experimental, or subject to significant changes.
 
-### Version Numbers
+### BV — Beta Version
+
+`BV` identifies a Beta Version.
+
+Beta Versions represent ongoing development and testing. Features and systems may continue to be added, changed, balanced, improved, or removed.
+
+### SV - Stable Version
+
+`SV` identifies a Stable Version
+
+Stable Versions represent entirely, or fully completed versions of the game. Features, systems may be subject to change but should remain unchanged.
+
+## Version Numbers
 
 Duel+ uses a three-part version number:
 
 `Major.Minor.Patch`
 
-For example:
+* **Major** — A significant development milestone or major update.
+* **Minor** — New features, systems, gameplay additions, or substantial content changes.
+* **Patch** — Bug fixes, balancing, polishing, hotfixes, and smaller changes.
 
-`BV v1.2.4`
+Development versions use the `v0.x.x` format.
 
-* **Major** — A major milestone or significant change to the game.
-* **Minor** — A new feature, system, or substantial content addition.
-* **Patch** — Bug fixes, balancing, polishing, and smaller changes.
+Build-stage identifiers are used to indicate the development stage of a version.
 
-Patch releases may also be used for hotfixes when necessary.
-
-Previous versions may remain available as separate playable builds. A newer version does not replace the historical versions that came before it.
+Previous versions may remain available as separate playable builds and historical snapshots. Newer versions do not replace or erase previous versions.
 
 ---
+
+## About
