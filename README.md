@@ -91,3 +91,9 @@ Build-stage identifiers are used to indicate the development stage of a version.
 Previous versions may remain available as separate playable builds and historical snapshots. Newer versions do not replace or erase previous versions.
 
 ---
+## 🛠️ How to Mod Duel+ 🛠️
+We welcome community mods and variations! To get started:
+1. **Fork this repository** to your own GitHub account.
+2. **Clone the code** and open the project solution file using **Microsoft Visual Studio Community**.
+3. **Make your tweaks** in the source files, then build/compile the project to test your mod locally.
+4. **Sharing your mod:** You are welcome to share your modified builds for free, but please make sure to follow our community guidelines in the `LICENSE` file (no commercial use, and keep our original art/branding separate!).
